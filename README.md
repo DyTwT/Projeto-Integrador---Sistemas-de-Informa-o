@@ -1,55 +1,81 @@
-# Sistema de Gerenciamento - Biblioteca (Projeto Integrador)
+# 📚 Sistema de Biblioteca em Java
 
-**Disciplina:** Introdução ao Java  
-**Curso:** Sistemas de Informação - Faculdade Santíssimo Sacramento  
-**Data de entrega:** 29/10/2025
+## 🧩 Sobre o Projeto
+Este projeto foi desenvolvido como parte da disciplina **Linguagem de Programação** do curso de **Sistemas de Informação**.  
+O objetivo é simular o funcionamento básico de um **sistema de gerenciamento de biblioteca**, permitindo o **cadastro, listagem, busca, atualização e remoção de livros e revistas**.
 
----
-
-## Descrição
-Sistema simples de gerenciamento de itens de biblioteca implementado em **Java**, com interface de entrada/saída usando **JOptionPane**. O projeto demonstra conceitos de:
-- Programação Orientada a Objetos (Herança, encapsulamento)
-- Métodos e modularização
-- Manipulação de coleções em memória (`ArrayList`)
-- Operações CRUD (Create, Read, Update, Delete)
-
-Entidades implementadas:
-- `ItemBiblioteca` (superclasse)
-- `Livro` (subclasse)
-- `Revista` (subclasse)
+A aplicação foi desenvolvida em **Java**, utilizando a biblioteca **Swing** para interações gráficas com o usuário (caixas de diálogo via `JOptionPane`).
 
 ---
 
-## Funcionalidades
-- Cadastrar livros e revistas
-- Listar todos os livros ou revistas
-- Buscar por título (busca parcial)
-- Atualizar registros (livros e revistas)
-- Remover registros
-- Exemplo de método customizado: aplicar desconto em livro
-- Todas as interações são feitas via `JOptionPane` (dialogs)
+## ⚙️ Funcionalidades Principais
+
+### 📘 Livros
+- Cadastrar novos livros (título, autor, ano, edição e preço)  
+- Listar todos os livros cadastrados  
+- Atualizar informações de um livro existente  
+- Remover livros do sistema  
+- Calcular preço com desconto (função demonstrativa)  
+
+### 📰 Revistas
+- Cadastrar novas revistas (título, autor/responsável, ano, número e editora)  
+- Listar revistas cadastradas  
+- Atualizar dados de revistas  
+- Remover revistas  
+
+### 🔎 Busca
+- Buscar livros e revistas pelo **título** (total ou parcial)
 
 ---
 
-## Estrutura de arquivos (.java)
-- `ItemBiblioteca.java` — superclasse com atributos comuns e método `calcularIdadePublicacao()`
-- `Livro.java` — subclasse com atributos `isbn`, `edicao`, `preco` e método `calcularPrecoComDesconto()`
-- `Revista.java` — subclasse com atributos `numero`, `editora` e método `incrementarNumero()`
-- `BibliotecaManager.java` — gerencia listas, implementa CRUD e os diálogos
-- `Main.java` — menu principal e loop de execução
+## 🧠 Estrutura do Projeto
+
+| Classe | Descrição |
+|--------|------------|
+| **Main** | Classe principal que contém o menu e controla o fluxo da aplicação |
+| **Bibliotecario** | Gerencia listas de livros e revistas, e executa operações de CRUD |
+| **ItemBiblioteca** | Classe base com atributos e métodos comuns (título, autor, ano) |
+| **Livro** | Classe filha que representa um livro, incluindo edição e preço |
+| **Revista** | Classe filha que representa uma revista, incluindo número e editora |
 
 ---
 
-## Requisitos
-- Java JDK 8 ou superior
-- Ambiente capaz de abrir janelas (GUI) — não funciona em modo só-terminal sem suporte a GUI
+## 💻 Tecnologias Utilizadas
+- **Linguagem:** Java  
+- **IDE:** IntelliJ IDEA Community  
+- **Biblioteca gráfica:** `javax.swing`  
+- **Paradigma:** Programação Orientada a Objetos (POO)
 
 ---
 
-## Como compilar e executar (linha de comando)
+## ▶️ Como Executar
 
-1. Coloque todos os arquivos `.java` em uma pasta, por exemplo `SistemaBiblioteca/`.
-2. Abra o terminal/Prompt de Comando e vá para essa pasta:
-   
-```bash
-cd /caminho/para/SistemaBiblioteca
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/seuusuario/nome-do-repositorio.git
+2. Abra o projeto no IntelliJ IDEA (ou em outra IDE de sua preferência).
+3. Compile e execute a classe principal:
+   ```bash
+   Main.java
+4. Utilize o menu exibido nas janelas de diálogo para navegar entre as opções do sistema.
+
+---
+
+## 👩‍💻 Autora
+** Andressa de Pinho Barreto **
+**🎓 Estudante de Sistemas de Informação **
+**📘 Disciplina:** Linguagem de Programação 
+**📚 Professor:** Joan Marcel Couto de Melo
+**📅 Projeto Integrador - II Unidade **
+
+Este projeto tem fins educacionais e foi desenvolvido como prática dos conceitos de Programação Orientada a Objetos (POO) em Java.
+
+---
+
+## 🧠 Conceitos Envolvidos
+
+- Herança e polimorfismo
+- Encapsulamento
+- Manipulação de listas (ArrayList)
+- Interfaces gráficas com Swing (JOptionPane)
+- Estrutura de controle e tratamento de exceções
