@@ -62,11 +62,11 @@ A aplicação foi desenvolvida em **Java**, utilizando a biblioteca **Swing** pa
 ---
 
 ## 👩‍💻 Autora
-**Andressa de Pinho Barreto**
-**🎓 Estudante de Sistemas de Informação**
-**📘 Disciplina:** Linguagem de Programação 
-**📚 Professor:** Joan Marcel Couto de Melo
-**📅 Projeto Integrador - II Unidade**
+- **Andressa de Pinho Barreto**
+- **🎓 Estudante de Sistemas de Informação**
+- **📘 Disciplina:** Linguagem de Programação 
+- **📚 Professor:** Joan Marcel Couto de Melo
+- **📅 Projeto Integrador - II Unidade**
 
 Este projeto tem fins educacionais e foi desenvolvido como prática dos conceitos de Programação Orientada a Objetos (POO) em Java.
 
