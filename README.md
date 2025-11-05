@@ -1,7 +1,7 @@
 # 📚 Sistema de Biblioteca em Java
 
 ## 🧩 Sobre o Projeto
-Este projeto foi desenvolvido como parte da disciplina **Linguagem de Programação** do curso de **Sistemas de Informação**.  
+Este projeto foi desenvolvido como parte da disciplina **Linguagem de Programação II** do curso de **Sistemas de Informação**.  
 O objetivo é simular o funcionamento básico de um **sistema de gerenciamento de biblioteca**, permitindo o **cadastro, listagem, busca, atualização e remoção de livros e revistas**.
 
 A aplicação foi desenvolvida em **Java**, utilizando a biblioteca **Swing** para interações gráficas com o usuário (caixas de diálogo via `JOptionPane`).
@@ -64,7 +64,7 @@ A aplicação foi desenvolvida em **Java**, utilizando a biblioteca **Swing** pa
 ## 👩‍💻 Autora
 - **Andressa de Pinho Barreto**
 - **🎓 Estudante de Sistemas de Informação**
-- **📘 Disciplina:** Linguagem de Programação 
+- **📘 Disciplina:** Linguagem de Programação II
 - **📚 Professor:** Joan Marcel Couto de Melo
 - **📅 Projeto Integrador - II Unidade**
 
